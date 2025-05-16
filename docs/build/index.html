@@ -1,136 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MindsDB Crypto ML Forecasting Demo</title>
-  <link rel="stylesheet" href="main.css">
-</head>
-<body>
-  <div id="app">
-    <h1>MindsDB Crypto ML Forecasting Demo (Static Test)</h1>
-    <p>This is a static copy of the js-example index.html. Interactive features may not work unless connected to a backend.</p>
-    <div class="dashboard">
-      <h2>Sample Dashboard</h2>
-      <table border="1" style="margin:auto;">
-        <tr><th>Coin</th><th>Prediction</th></tr>
-        <tr><td>BTC/USDT</td><td>42,000</td></tr>
-        <tr><td>ETH/USDT</td><td>2,800</td></tr>
-        <tr><td>BNB/USDT</td><td>400</td></tr>
-        <tr><td>DOGE/USDT</td><td>0.20</td></tr>
-        <tr><td>SOL/USDT</td><td>100</td></tr>
-      </table>
-    </div>
-    <p style="margin-top:2em;color:red;">This is a static test page. Live predictions require backend integration.</p>
-  </div>
-</body>
-</html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tgpt-mindsdb Firebase Test</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f8fafc; margin: 0; padding: 0; }
-    .container { max-width: 600px; margin: 7vh auto; background: #fff; border-radius: 12px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); padding: 32px 28px; text-align: center; }
-    h1 { color: #1d72b8; }
-    p { color: #444; font-size: 1.2em; }
-    .success { color: #22bb33; font-weight: bold; margin-top: 24px; }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1>tgpt-mindsdb Firebase Test</h1>
-    <p>This is a custom test page served from <b>docs/build/index.html</b>.</p>
-    <div class="success">If you see this, your deployment works!</div>
-  </div>
-</body>
-</html>
-<html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to Firebase Hosting</title>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon-CwbT8JKi.svg" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- update the version number as needed -->
-    <script defer src="/__/firebase/11.7.3/firebase-app-compat.js"></script>
-    <!-- include only the Firebase features as you need -->
-    <script defer src="/__/firebase/11.7.3/firebase-auth-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-database-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-firestore-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-functions-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-messaging-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-storage-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-analytics-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-remote-config-compat.js"></script>
-    <script defer src="/__/firebase/11.7.3/firebase-performance-compat.js"></script>
-    <!-- 
-      initialize the SDK after all desired features are loaded, set useEmulator to false
-      to avoid connecting the SDK to running emulators.
-    -->
-    <script defer src="/__/firebase/init.js?useEmulator=true"></script>
-
-    <style media="screen">
-      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
-      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
-      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
-      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
-      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
-      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
-      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
-      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
-      @media (max-width: 600px) {
-        body, #message { margin-top: 0; background: white; box-shadow: none; }
-        body { border-top: 16px solid #ffa100; }
-      }
-    </style>
+    <title>MindsDB Studio</title>
+    <meta name="description" content="Make predictions from tables inside your database, then visualize them in your BI tool or App, all using standard SQL." />
+    <script type="module" crossorigin src="/assets/index-C4oPv-yj.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Bm8sVgk7.css">
   </head>
   <body>
-    <div id="message">
-      <h2>Welcome</h2>
-      <h1>Firebase Hosting Setup Complete</h1>
-      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
-      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
-    </div>
-    <p id="load">Firebase SDK Loading&hellip;</p>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-5QBNTQX"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <div id="gtm-placeholder"></div>
+
+    <div id="root"></div>
+    <div id="takeover-portal"></div>
 
     <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const loadEl = document.querySelector('#load');
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-        // // The Firebase SDK is initialized and available here!
-        //
-        // firebase.auth().onAuthStateChanged(user => { });
-        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
-        // firebase.firestore().doc('/foo/bar').get().then(() => { });
-        // firebase.functions().httpsCallable('yourFunction')().then(() => { });
-        // firebase.messaging().requestPermission().then(() => { });
-        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
-        // firebase.analytics(); // call to activate
-        // firebase.analytics().logEvent('tutorial_completed');
-        // firebase.performance(); // call to activate
-        //
-        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
-
-        try {
-          let app = firebase.app();
-          let features = [
-            'auth', 
-            'database', 
-            'firestore',
-            'functions',
-            'messaging', 
-            'storage', 
-            'analytics', 
-            'remoteConfig',
-            'performance',
-          ].filter(feature => typeof app[feature] === 'function');
-          loadEl.textContent = `Firebase SDK loaded with ${features.join(', ')}`;
-        } catch (e) {
-          console.error(e);
-          loadEl.textContent = 'Error loading the Firebase SDK, check the console.';
-        }
-      });
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.ready.then(function (registration) {
+          registration
+            .unregister()
+            .then(function () {
+              console.log('Service worker unregistered');
+            })
+            .catch(function (error) {
+              console.error('Failed to unregister service worker:', error);
+            });
+        });
+      }
     </script>
   </body>
 </html>
